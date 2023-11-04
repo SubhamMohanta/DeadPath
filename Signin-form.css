@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #121212;
+    color: white;
+    
+}
+
+#contents{
+    width:350px;
+}
+
+h4{
+    font-size: 18px;
+    font-family: 'Krona One', sans-serif;
+}
+
+::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.5);
+}
+#container{
+    display: flex;
+    justify-content: center;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    background-color: #202020;
+    width: 479px;
+    height: 780px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+#EpicGames-logo{
+    width: 45px;
+    height: 45px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+
+#text-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+#details{
+    margin-top: 20px;
+}
+
+
+label{
+    font-family: Brutal, sans-serif;
+    
+}
+
+.input-group{
+    position: relative;
+}
+.input-group__input{
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    padding: 20px;
+    border: none;
+    border-radius: 4px;
+    outline: 1px solid #686868;
+    background-color: transparent;
+    transition: outline-color 250ms;
+    font-family: 'Krona One', sans-serif;
+}
+.input-group__input:is(:focus){
+    outline-color: white;
+}
+
+.input-group__label{
+    padding-top:9px;
+    position: absolute;
+    font-size: 14px;
+    left: 12px;
+    transform: translate(10px,10px);
+    transform-origin: left;
+    color: #C1C1C1;
+    transition: transform 200ms;
+}
+
+.input-group__input:focus + .input-group__label, .input-group__input:valid + .input-group__label{
+    transform: translate(10px,-1px) scale(0.8);
+}
+
+#Continue{
+    color: white;
+    font-size: 13px;
+    height: 60px;
+    width: 350px;
+    background-color: #c20000;
+    border: none;
+    border-radius: 4px;
+    margin-top: 45px;
+    
+}

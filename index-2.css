@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    color: #c9c9c9;
+    background-color: #0a0a0a;
+}
+
+#name{
+    padding: 0.8%;
+    width: 30%;
+    font-family: 'Krona One', sans-serif;
+}
+
+#box{
+    padding-left: 41%;
+    padding-top: 25%;
+}
+
+#knickname{
+    padding: 0.8%;
+    width: 30%;
+    font-family: 'Krona One', sans-serif;
+}
+
+#nickname-box{
+    margin-top: 4%;
+}
+
+#start{
+    margin-left: 11.5%;
+    font-family: 'Krona One', sans-serif;
+}
+button{
+    background-color:rgb(135, 0, 0);
+    border: none;
+    color: white;
+    border-radius: 15%;
+}
+
+button:hover{
+    color: rgb(135, 0, 0);
+    background-color: white;
+    cursor: pointer;
+}
+
+::placeholder{
+    color: #3d3d3d;
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+}

@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
+
+body{
+    font-family: 'Krona One', sans-serif;
+    color: #c9c9c9;
+    background-image: url("../assets/bg7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#Warning{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: 20px;
+}
+
+#warning-image{
+    padding-right: 15px;
+}
+
+#Inside-text{
+    font-size: 12px;
+    line-height: 10px;
+}
+
+#Options{
+    margin-top: 350px;
+    padding-left: 430px;
+}
+
+#option-1, #option-2, #option-3, #option-4{
+    display: flex;
+    align-items: center;
+}
+
+#option-text1, #option-text3{
+    padding-left: 160px;
+    transition: all 1s ease;
+}
+
+#option-text2{
+    padding-left: 50px;
+    transition: all 1s ease;
+}
+
+#option-text4{
+    padding-left: 270px;
+    transition: all 1s ease;
+}
+
+#option-1:hover, #option-2:hover, #option-3:hover, #option-4:hover{
+    color: #ffffff;
+    transition: 0.1s;
+    cursor: pointer;
+}
+
+#option-text1:hover, #option-text2:hover, #option-text3:hover, #option-text4:hover{
+    scale: 1.1;
+    transform: translateX(-8px);
+}
+
+
+
+
+
+
